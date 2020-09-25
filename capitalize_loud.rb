@@ -7,7 +7,7 @@
 def capitalize_loud(array)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
-  planeteer_calls.map do |str|
+  array.map do |str|
     str.capitalize! + "!"
 end
 end
